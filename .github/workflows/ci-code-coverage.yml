@@ -1,7 +1,7 @@
 name: Workflow for Codecov
 on: [push, pull_request]
 jobs:
-  run:
+  ci-code-cov:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
