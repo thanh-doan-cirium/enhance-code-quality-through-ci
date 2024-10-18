@@ -28,6 +28,11 @@ def handle_divide():
     return operation('divide', 2)
 
 
+@app.route('/api/modulo', methods=['POST'])
+def handle_module():
+    return operation('modulo', 2)
+
+
 def handle_operation(method, num_factors):
     factors = []
     if num_factors == 2:
@@ -61,6 +66,11 @@ def multiply():
 @app.route('/api/divide', methods=['POST'])
 def divide():
     return operation('divide', 2)
+
+
+@app.route('/api/modulo', methods=['POST'])
+def modulo():
+    return operation('modulo', 2)
 
 
 def operation(method, num_factors):
