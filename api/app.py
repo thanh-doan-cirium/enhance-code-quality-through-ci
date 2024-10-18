@@ -9,26 +9,26 @@ app = Flask(__name__)
 
 
 @app.route('/api/add', methods=['POST'])
-def add():
+def handle_add():
     return operation('add', 2)
 
 
 @app.route('/api/subtract', methods=['POST'])
-def subtract():
+def handle_subtract():
     return operation('subtract', 2)
 
 
 @app.route('/api/multiply', methods=['POST'])
-def multiply():
+def handle_multiply():
     return operation('multiply', 2)
 
 
 @app.route('/api/divide', methods=['POST'])
-def divide():
+def handle_divide():
     return operation('divide', 2)
 
 
-def operation(method, num_factors):
+def handle_operation(method, num_factors):
     factors = []
     if num_factors == 2:
         factors.append(float(request.json.get('x')))
