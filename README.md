@@ -2,7 +2,7 @@ Enhancing code quality through your CI with GitHub Actions
 
 ## Summary
 
-There are many ways to enhance the quality of your code, but in this post, we'll explore three key methods and show you how to integrate them into your CI workflow. Our focus will be on the following areas:
+There are many ways to enhance the quality of your code, but in this demo, we'll explore three key methods and show you how to integrate them into your CI workflow. Our focus will be on the following areas:
 
 - Code coverage
 - Code security
