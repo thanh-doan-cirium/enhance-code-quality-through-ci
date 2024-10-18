@@ -27,15 +27,15 @@ You can set up CodeCov in your GitHub Actions workflow easily by following these
 
 ## Code styling
 
-In this demo, [flake8](https://flake8.pycqa.org/en/latest/) is used to check Python styling
+In this demo, [flake8](https://flake8.pycqa.org/en/latest/) is used to check Python styling.
 
 ## Code security
 
-In this demo, [SonarCloud](https://www.sonarsource.com/) is used
+In this demo, [SonarCloud](https://www.sonarsource.com/) is used.
 
 ### Requirements
 
-- Create your account on SonarCloud. Sign up for free now if it's not already the case! [SonarCloud Sign up](https://www.sonarsource.com/products/sonarcloud/signup/?utm_medium=referral&utm_source=github&utm_campaign=sc-signup&utm_content=signup-sonarcloud-listing-x-x&utm_term=ww-psp-x)
+- Create your account on SonarCloud. Sign up for free now if it's not already the case! [SonarCloud Sign up](https://www.sonarsource.com/products/sonarcloud/signup/?utm_medium=referral&utm_source=github&utm_campaign=sc-signup&utm_content=signup-sonarcloud-listing-x-x&utm_term=ww-psp-x).
 - The repository to analyze is set up on SonarCloud. [Set it up](https://sonarcloud.io/projects/create) in just one click.
 
 ### Usage
