@@ -27,7 +27,7 @@ You can set up CodeCov in your GitHub Actions workflow easily by following these
 
 ## Code styling
 
-In this demo, flake8 is used to check Python styling
+In this demo, [flake8](https://flake8.pycqa.org/en/latest/) is used to check Python styling
 
 ## Code security
 
