@@ -1,7 +1,7 @@
 name: Python Styling
 on: [push, pull_request]
 jobs:
-  styling:
+  ci-code-styling:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
