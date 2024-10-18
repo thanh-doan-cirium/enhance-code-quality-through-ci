@@ -45,9 +45,6 @@ Project metadata, including the location of the sources to be analyzed, must be 
 ```
 sonar.organization=<replace with your SonarCloud organization key>
 sonar.projectKey=<replace with the key generated when setting up the project on SonarCloud>
-# relative paths to source directories. More details and properties are described
-# in https://sonarcloud.io/documentation/project-administration/narrowing-the-focus/
-sonar.sources=.
 ```
 
 ### Some examples
