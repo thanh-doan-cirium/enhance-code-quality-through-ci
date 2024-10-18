@@ -1,0 +1,21 @@
+name: Python Styling
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  styling:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@master
+        with:
+          python-version: 3.7
+      - name: Install flake8
+        run: pip install flake8
+      - name: Check Python styling
+        run: flake8 .
