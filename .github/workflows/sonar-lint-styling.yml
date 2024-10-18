@@ -5,8 +5,8 @@ on:
         - main
     pull_request:
       types: [opened, synchronize, reopened]
-  jobs:
-    sonarcloud:
+jobs:
+    sonarcloud-scan:
       name: SonarCloud
       runs-on: ubuntu-latest
       steps:
