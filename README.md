@@ -50,6 +50,8 @@ sonar.projectKey=<replace with the key generated when setting up the project on 
 sonar.sources=.
 ```
 
-Some examples
+### Some examples
 
 ![alt text](image-1.png)
+
+![alt text](image-2.png)
