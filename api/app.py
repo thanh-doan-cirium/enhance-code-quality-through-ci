@@ -29,7 +29,7 @@ def handle_divide():
 
 
 @app.route('/api/modulo', methods=['POST'])
-def modulo():
+def handle_modulo():
     return operation('modulo', 2)
 
 
